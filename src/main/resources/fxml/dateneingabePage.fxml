@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.laufverwaltungfelix.DateneingabeController" spacing="20" alignment="center"
+      style="-fx-background-color: white; -fx-background-radius: 20; -fx-padding: 20; -fx-border-radius: 20;">
+    <Button text="Verein eintragen" onAction="#openVereinEintragen"
+            style="-fx-background-color: rgba(211,188,141); -fx-text-fill: white; -fx-font-family: Arial;"/>
+    <Button text="Mannschaft eintragen" onAction="#openMannschaftEintragen"
+            style="-fx-background-color: rgba(211,188,141); -fx-text-fill: white; -fx-font-family: Arial;"/>
+    <Button text="Person eintragen" onAction="#openPersonEintragen"
+            style="-fx-background-color: rgba(211,188,141); -fx-text-fill: white; -fx-font-family: Arial;"/>
+    <Button text="Zeiten eintragen" onAction="#openZeitenEintragen"
+            style="-fx-background-color: rgba(211,188,141); -fx-text-fill: white; -fx-font-family: Arial;"/>
+    <Button fx:id="closeButton" text="Schließen" onAction="#closeWindow"
+            style="-fx-background-color: rgba(211,188,141); -fx-text-fill: white; -fx-font-family: Arial;"/>
+</VBox>

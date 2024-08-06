@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.laufverwaltungfelix.MannschaftEintragenController" spacing="20" alignment="center"
+      style="-fx-background-color: white; -fx-background-radius: 20; -fx-padding: 20; -fx-border-radius: 20;">
+    <TextField fx:id="mannschaftNameField" promptText="Mannschaft Name"
+               style="-fx-background-color: rgba(227,212,173); -fx-text-fill: white; -fx-font-family: Arial;"/>
+    <Button text="Speichern" onAction="#saveMannschaftAction"
+            style="-fx-background-color: rgba(211,188,141); -fx-text-fill: white; -fx-font-family: Arial;"/>
+    <Button fx:id="closeButton" text="Schließen" onAction="#closeWindow"
+            style="-fx-background-color: rgba(211,188,141); -fx-text-fill: white; -fx-font-family: Arial;"/>
+</VBox>

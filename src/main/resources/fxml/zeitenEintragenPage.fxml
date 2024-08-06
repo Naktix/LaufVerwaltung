@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.laufverwaltungfelix.ZeitenEintragenController" spacing="20" alignment="center"
+      style="-fx-background-color: white; -fx-background-radius: 20; -fx-padding: 20; -fx-border-radius: 20;">
+    <Button text="Zeit Eintragen" onAction="#openSaveDialog"
+            style="-fx-background-color: rgba(211,188,141); -fx-text-fill: white; -fx-font-family: Arial;"/>
+    <Button fx:id="closeButton" text="Schließen" onAction="#closeWindow"
+            style="-fx-background-color: rgba(211,188,141); -fx-text-fill: white; -fx-font-family: Arial;"/>
+</VBox>
