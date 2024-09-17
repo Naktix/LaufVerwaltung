@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.laufverwaltungfelix.DatenauswertungController" spacing="20" alignment="center" >
+       <Button text="Daten anzeigen und bearbeiten" onAction="#openDatenAnzeigenBearbeiten" />
+       <Button text="Urkundenauswertung" onAction="#openUrkundenauswertung" />
+       <Button fx:id="closeButton" text="Schließen" onAction="#closeWindow" />
+</VBox>

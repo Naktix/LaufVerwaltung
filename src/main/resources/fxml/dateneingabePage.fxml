@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.laufverwaltungfelix.DateneingabeController" spacing="20" alignment="center" >
+       <Button text="Verein eintragen" onAction="#openVereinEintragen" />
+       <Button text="Mannschaft eintragen" onAction="#openMannschaftEintragen" />
+       <Button text="Person eintragen" onAction="#openPersonEintragen" />
+       <Button text="Zeiten eintragen" onAction="#openZeitenEintragen" />
+       <Button fx:id="closeButton" text="Schließen" onAction="#closeWindow" />
+</VBox>

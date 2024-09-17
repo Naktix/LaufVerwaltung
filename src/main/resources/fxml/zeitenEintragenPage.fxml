@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.laufverwaltungfelix.ZeitenEintragenController" spacing="20" alignment="center" >
+        <Button text="Zeit Eintragen" onAction="#openSaveDialog" />
+        <Button fx:id="closeButton" text="Schließen" onAction="#closeWindow" />
+</VBox>

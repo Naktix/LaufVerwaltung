@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.14'
+}
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'com.laufverwaltungfelix.Main'  // Hauptklasse des Programms
+        )
+    }
+}
+
+dependencies {
+    implementation 'org.openjfx:javafx-controls:21'
+    implementation 'org.openjfx:javafx-fxml:21'
+    implementation 'org.apache.poi:poi-ooxml:5.2.2'
+    implementation 'org.apache.logging.log4j:log4j-core:2.20.0'  // Hinzugefügt
+    implementation 'org.apache.logging.log4j:log4j-api:2.20.0'   // Log4j API hinzufügen
+    implementation 'org.apache.pdfbox:pdfbox:2.0.27'
+}
+
+javafx {
+    version = "21"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+application {
+    mainClass = 'com.laufverwaltungfelix.Main'  // Hier wird die mainClass festgelegt
+}
